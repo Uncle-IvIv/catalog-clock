@@ -92,6 +92,7 @@ body {
     .ctlg-abb {
       width: 368px;
       margin: auto;
+      margin-bottom: 16px;
     }
   }
   .ctlg-abc {
@@ -103,8 +104,12 @@ body {
   }
   @media only screen and (min-width: 768px) {
     .ctlg-abc {
-      margin-top: 16px;
-      height: 414px;
+        height: 414px;
+    }
+  }
+  @media only screen and (min-width: 1280px) {
+    .ctlg-abc {
+      width: ;: 368px;
     }
   }
   .ctlg-abg {
