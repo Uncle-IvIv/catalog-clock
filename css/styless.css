@@ -200,9 +200,9 @@ padding-top: 32px;
   height: 48px;
   background: #3350e9;
   margin-top: 40px;
-  display: block;
-  margin-left: auto;
+    margin-left: auto;
   margin-right: auto;
+  display: block;
 }
 @media only screen and (min-width: 768px) {
   .ctlg-ac {
