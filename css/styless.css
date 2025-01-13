@@ -39,7 +39,7 @@ p {
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding: 0 20px;
+    padding: 0 32px;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -84,41 +84,32 @@ p {
 }
 @media only screen and (min-width: 1280px) {
   .ctlg-ab {
-    column-gap:23px;
+    column-gap: 23px;
   }
 }
 
+.ctlg-abb {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  background: #f3f3f3;
+  height: 364px;
+  width: 335px;
+  display: flex;
+  flex-direction: column;
+}
 @media only screen and (min-width: 768px) {
   .ctlg-abb {
+    height: 414px;
     width: 344px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .ctlg-abb {
     width: 368px;
-    margin: auto;
-  }
-}
-.ctlg-abc {
-  border: 1px solid rgba(12, 12, 12, 0.05);
-  border-radius: 30px;
-  background: #f3f3f3;
-  height: 364px;
-  max-width: 100%;
-}
-@media only screen and (min-width: 768px) {
-  .ctlg-abc {
-    height: 414px;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .ctlg-abc {
-    width: 368px ;
   }
 }
 .ctlg-abg {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   margin-top: 42px;
 }
 @media only screen and (min-width: 768px) {
@@ -126,20 +117,26 @@ p {
     margin-top: 34px;
   }
 }
+@media only screen and (min-width: 1280px) {
+  .ctlg-abg {
+    margin-top: 30px;
+  }
+}
 .ctlg-abd {
-  width: 280px;
-  padding-top: 28px;
-  padding-left: 17px;
+  /* padding-left: 27px;
+  padding-right: 28px; */
+  margin-left: 27px;
+  margin-right: 28px;
 }
 @media only screen and (min-width: 768px) {
   .ctlg-abd {
-padding-left: 32px;
-padding-top: 32px;
+    padding-top: 20px;
+    margin-left: 32px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .ctlg-abd {
-    width: 304px;
+    width: 334px;
   }
 }
 .ctlg-abe {
@@ -150,7 +147,6 @@ padding-top: 32px;
   letter-spacing: -0.02em;
   color: #0c0c0c;
   margin-bottom: 8px;
-  width: 280px;
 }
 @media only screen and (min-width: 768px) {
   .ctlg-abe {
@@ -200,7 +196,7 @@ padding-top: 32px;
   height: 48px;
   background: #3350e9;
   margin-top: 40px;
-    margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
   display: block;
 }
